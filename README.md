@@ -4,6 +4,12 @@ Macchiato is a small macOS menu bar app with a cup button for toggling sleep pre
 
 The app uses `pmset -a disablesleep 1` to keep the Mac awake, including when the lid is closed. A root-owned, one-shot `launchd` job reapplies that setting after a restart. The setting also remains in effect if the menu app quits or crashes. Macchiato does not disable the macOS lock screen. Closed-lid behavior has not been verified on every Mac model.
 
+## App icon
+
+![Macchiato app icon](assets/AppIcon-1024.png)
+
+Download the [4096 × 4096 transparent PNG](assets/Macchiato-App-Icon-4096.png) to share or use in artwork.
+
 ## Download and use
 
 Download `Macchiato.zip` from the [latest release](../../releases/latest), unzip it, and open `Macchiato.app`. Click the cup to turn sleep prevention on or off. The first use asks for administrator approval to install `MacchiatoHelper` and a narrow permission rule for future on/off clicks. Right-click the cup to change the display option, remove that permission, or quit while leaving the current state in place.
